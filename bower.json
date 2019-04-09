@@ -1,0 +1,23 @@
+{
+  "name": "Start-Kit",
+  "description": "Start Template by GetCreate",
+  "main": "index.js",
+  "authors": [
+    "Nazarov Vitaly"
+  ],
+  "license": "MIT",
+  "keywords": [
+    "gulp#4",
+    "stylus",
+    "pug",
+    "optimize",
+    "project",
+    "builder"
+  ],
+  "homepage": "",
+  "private": true,
+  "ignore": [
+    "node_modules"
+  ],
+  "dependencies": {}
+}
