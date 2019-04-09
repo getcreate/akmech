@@ -1,0 +1,17 @@
+header.header
+    .header__inner.container
+        +logo('Академмеханизация', 'header__logo')
+        .header__contact.contact-box.contact-box--light
+            img(src="./img/images/location.png", alt="").contact-box__icon
+            .contact-box__text г. Екатеринбург, <br>ул.Мостовая 65
+        .header__contact.contact-box.contact-box--light
+            img(src="./img/images/phone.png", alt="").contact-box__icon
+            .contact-box__text
+                a.contact-box__link(href="tel:+73432678392") +7 (343) 267-83-92
+                a.contact-box__link(href="tel:+73432678589") +7 (343) 267-85-89
+        .header__button
+            a.btn(href="#") Заказать звонок
+include ../main-nav/main-nav
+            
+        
+        

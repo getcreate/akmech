@@ -1,0 +1,28 @@
+.main-nav {
+    background-color: $second-color;
+    padding: 7px 0 10px;
+    &__list {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    &__item {
+        position: relative;
+        &:hover {
+            .main-nav__submenu {
+            }
+        }
+    }
+    &__link {
+        color: #fff;
+        font-size: 16px;
+        font-weight: bold;
+        line-height: 1;
+    }
+    &__submenu {
+        display: none;
+        position: absolute;
+        top: 100%;
+        left: 0;
+    }
+}

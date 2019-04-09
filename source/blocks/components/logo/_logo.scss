@@ -1,0 +1,15 @@
+.logotype {
+    display: flex;
+    align-items: center;
+    &__icon {
+        width: 54px;
+        height: 45px;
+    }
+    &__name {
+        color: #ffffff;
+        font-family: $logo-font;
+        font-weight: 600;
+        text-transform: uppercase;
+        font-size: 20px;
+    }
+}

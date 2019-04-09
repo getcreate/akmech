@@ -1,0 +1,9 @@
+.header {
+    background-color: $base-color;
+    padding: 20px 0;
+    &__inner {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+}
